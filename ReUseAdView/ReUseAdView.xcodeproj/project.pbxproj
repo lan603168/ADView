@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D13E1DC1C192EAC00153570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D13E1DB1C192EAC00153570 /* Foundation.framework */; };
+		8D13E1DE1C192EAC00153570 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D13E1DD1C192EAC00153570 /* CoreGraphics.framework */; };
+		8D13E1E01C192EAC00153570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D13E1DF1C192EAC00153570 /* UIKit.framework */; };
+		8D13E1E61C192EAC00153570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D13E1E41C192EAC00153570 /* InfoPlist.strings */; };
+		8D13E1E81C192EAC00153570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D13E1E71C192EAC00153570 /* main.m */; };
+		8D13E1EC1C192EAC00153570 /* LXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D13E1EB1C192EAC00153570 /* LXAppDelegate.m */; };
+		8D13E1EE1C192EAC00153570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D13E1ED1C192EAC00153570 /* Images.xcassets */; };
+		8D60FD6F1C19337800E3B751 /* LXReUseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60FD6E1C19337800E3B751 /* LXReUseScrollView.m */; };
+		8D60FD721C19346700E3B751 /* LXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60FD711C19346700E3B751 /* LXViewController.m */; };
+		8D60FD751C19652F00E3B751 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D60FD741C19652F00E3B751 /* UIView+frame.m */; };
+		8D60FD7F1C1973FC00E3B751 /* bangongshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD791C1973FC00E3B751 /* bangongshi.png */; };
+		8D60FD801C1973FC00E3B751 /* bolise.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD7A1C1973FC00E3B751 /* bolise.png */; };
+		8D60FD811C1973FC00E3B751 /* cizhuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD7B1C1973FC00E3B751 /* cizhuan.png */; };
+		8D60FD821C1973FC00E3B751 /* wenli.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD7C1C1973FC00E3B751 /* wenli.png */; };
+		8D60FD831C1973FC00E3B751 /* xiyang.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD7D1C1973FC00E3B751 /* xiyang.png */; };
+		8D60FD841C1973FC00E3B751 /* yuqi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60FD7E1C1973FC00E3B751 /* yuqi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D13E1D81C192EAC00153570 /* ReUseAdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReUseAdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D13E1DB1C192EAC00153570 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D13E1DD1C192EAC00153570 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D13E1DF1C192EAC00153570 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D13E1E31C192EAC00153570 /* ReUseAdView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReUseAdView-Info.plist"; sourceTree = "<group>"; };
+		8D13E1E51C192EAC00153570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D13E1E71C192EAC00153570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D13E1E91C192EAC00153570 /* ReUseAdView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReUseAdView-Prefix.pch"; sourceTree = "<group>"; };
+		8D13E1EA1C192EAC00153570 /* LXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXAppDelegate.h; sourceTree = "<group>"; };
+		8D13E1EB1C192EAC00153570 /* LXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAppDelegate.m; sourceTree = "<group>"; };
+		8D13E1ED1C192EAC00153570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D13E1F41C192EAC00153570 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D60FD6D1C19337800E3B751 /* LXReUseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReUseScrollView.h; sourceTree = "<group>"; };
+		8D60FD6E1C19337800E3B751 /* LXReUseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReUseScrollView.m; sourceTree = "<group>"; };
+		8D60FD701C19346700E3B751 /* LXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXViewController.h; sourceTree = "<group>"; };
+		8D60FD711C19346700E3B751 /* LXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXViewController.m; sourceTree = "<group>"; };
+		8D60FD731C19652F00E3B751 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		8D60FD741C19652F00E3B751 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		8D60FD791C1973FC00E3B751 /* bangongshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangongshi.png; sourceTree = "<group>"; };
+		8D60FD7A1C1973FC00E3B751 /* bolise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolise.png; sourceTree = "<group>"; };
+		8D60FD7B1C1973FC00E3B751 /* cizhuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cizhuan.png; sourceTree = "<group>"; };
+		8D60FD7C1C1973FC00E3B751 /* wenli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wenli.png; sourceTree = "<group>"; };
+		8D60FD7D1C1973FC00E3B751 /* xiyang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiyang.png; sourceTree = "<group>"; };
+		8D60FD7E1C1973FC00E3B751 /* yuqi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuqi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D13E1D51C192EAB00153570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D13E1DE1C192EAC00153570 /* CoreGraphics.framework in Frameworks */,
+				8D13E1E01C192EAC00153570 /* UIKit.framework in Frameworks */,
+				8D13E1DC1C192EAC00153570 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D13E1CF1C192EAB00153570 = {
+			isa = PBXGroup;
+			children = (
+				8D13E1E11C192EAC00153570 /* ReUseAdView */,
+				8D13E1DA1C192EAC00153570 /* Frameworks */,
+				8D13E1D91C192EAC00153570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D13E1D91C192EAC00153570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D13E1D81C192EAC00153570 /* ReUseAdView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D13E1DA1C192EAC00153570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D13E1DB1C192EAC00153570 /* Foundation.framework */,
+				8D13E1DD1C192EAC00153570 /* CoreGraphics.framework */,
+				8D13E1DF1C192EAC00153570 /* UIKit.framework */,
+				8D13E1F41C192EAC00153570 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D13E1E11C192EAC00153570 /* ReUseAdView */ = {
+			isa = PBXGroup;
+			children = (
+				8D13E1EA1C192EAC00153570 /* LXAppDelegate.h */,
+				8D13E1EB1C192EAC00153570 /* LXAppDelegate.m */,
+				8D60FD701C19346700E3B751 /* LXViewController.h */,
+				8D60FD711C19346700E3B751 /* LXViewController.m */,
+				8D60FD781C1973FC00E3B751 /* image */,
+				8D60FD761C196F5E00E3B751 /* Class */,
+				8D13E1ED1C192EAC00153570 /* Images.xcassets */,
+				8D13E1E21C192EAC00153570 /* Supporting Files */,
+			);
+			path = ReUseAdView;
+			sourceTree = "<group>";
+		};
+		8D13E1E21C192EAC00153570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D13E1E31C192EAC00153570 /* ReUseAdView-Info.plist */,
+				8D13E1E41C192EAC00153570 /* InfoPlist.strings */,
+				8D13E1E71C192EAC00153570 /* main.m */,
+				8D13E1E91C192EAC00153570 /* ReUseAdView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D60FD761C196F5E00E3B751 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8D60FD731C19652F00E3B751 /* UIView+frame.h */,
+				8D60FD741C19652F00E3B751 /* UIView+frame.m */,
+				8D60FD6D1C19337800E3B751 /* LXReUseScrollView.h */,
+				8D60FD6E1C19337800E3B751 /* LXReUseScrollView.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		8D60FD781C1973FC00E3B751 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8D60FD791C1973FC00E3B751 /* bangongshi.png */,
+				8D60FD7A1C1973FC00E3B751 /* bolise.png */,
+				8D60FD7B1C1973FC00E3B751 /* cizhuan.png */,
+				8D60FD7C1C1973FC00E3B751 /* wenli.png */,
+				8D60FD7D1C1973FC00E3B751 /* xiyang.png */,
+				8D60FD7E1C1973FC00E3B751 /* yuqi.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D13E1D71C192EAB00153570 /* ReUseAdView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D13E2041C192EAC00153570 /* Build configuration list for PBXNativeTarget "ReUseAdView" */;
+			buildPhases = (
+				8D13E1D41C192EAB00153570 /* Sources */,
+				8D13E1D51C192EAB00153570 /* Frameworks */,
+				8D13E1D61C192EAB00153570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReUseAdView;
+			productName = ReUseAdView;
+			productReference = 8D13E1D81C192EAC00153570 /* ReUseAdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D13E1D01C192EAB00153570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lan;
+			};
+			buildConfigurationList = 8D13E1D31C192EAB00153570 /* Build configuration list for PBXProject "ReUseAdView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D13E1CF1C192EAB00153570;
+			productRefGroup = 8D13E1D91C192EAC00153570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D13E1D71C192EAB00153570 /* ReUseAdView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D13E1D61C192EAB00153570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60FD831C1973FC00E3B751 /* xiyang.png in Resources */,
+				8D13E1E61C192EAC00153570 /* InfoPlist.strings in Resources */,
+				8D13E1EE1C192EAC00153570 /* Images.xcassets in Resources */,
+				8D60FD841C1973FC00E3B751 /* yuqi.png in Resources */,
+				8D60FD7F1C1973FC00E3B751 /* bangongshi.png in Resources */,
+				8D60FD811C1973FC00E3B751 /* cizhuan.png in Resources */,
+				8D60FD801C1973FC00E3B751 /* bolise.png in Resources */,
+				8D60FD821C1973FC00E3B751 /* wenli.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D13E1D41C192EAB00153570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60FD721C19346700E3B751 /* LXViewController.m in Sources */,
+				8D13E1EC1C192EAC00153570 /* LXAppDelegate.m in Sources */,
+				8D13E1E81C192EAC00153570 /* main.m in Sources */,
+				8D60FD751C19652F00E3B751 /* UIView+frame.m in Sources */,
+				8D60FD6F1C19337800E3B751 /* LXReUseScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D13E1E41C192EAC00153570 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D13E1E51C192EAC00153570 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D13E2021C192EAC00153570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D13E2031C192EAC00153570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D13E2051C192EAC00153570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReUseAdView/ReUseAdView-Prefix.pch";
+				INFOPLIST_FILE = "ReUseAdView/ReUseAdView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D13E2061C192EAC00153570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReUseAdView/ReUseAdView-Prefix.pch";
+				INFOPLIST_FILE = "ReUseAdView/ReUseAdView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D13E1D31C192EAB00153570 /* Build configuration list for PBXProject "ReUseAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D13E2021C192EAC00153570 /* Debug */,
+				8D13E2031C192EAC00153570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D13E2041C192EAC00153570 /* Build configuration list for PBXNativeTarget "ReUseAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D13E2051C192EAC00153570 /* Debug */,
+				8D13E2061C192EAC00153570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D13E1D01C192EAB00153570 /* Project object */;
+}
